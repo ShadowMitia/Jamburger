@@ -9,16 +9,17 @@ public class TempoEndZoneController : MonoBehaviour {
 
 	public HealthController healthController;
 
-
-
-	void Update(){
+	public void TapTempo(){
 		for (int i = 0; i < gameController.numIngredientsOrder; i++) {
 			if (tempoIController.tempoIngredients [i] != null) {
 				float objectPos = tempoIController.tempoIngredients [i].transform.position.x;
-				if (objectPos < GetComponent<Transform>().transform.position.x) {
+				if (objectPos < GetComponent<Transform> ().transform.position.x) {
+					Destroy (tempoIController.tempoIngredients [i]);
+				} else {
 					Destroy (tempoIController.tempoIngredients [i]);
 					healthController.LoseLife ();
 				}
+				break;
 			}
 		}
 	}

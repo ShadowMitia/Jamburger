@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class HealthController : MonoBehaviour {
@@ -8,6 +9,8 @@ public class HealthController : MonoBehaviour {
 	public int numberlives;
 	GameObject[] lives;
 	public GameObject uiLife;
+
+	public Material mat;
 
 	// Use this for initialization
 	void Start () {
@@ -23,7 +26,8 @@ public class HealthController : MonoBehaviour {
 
 	public void LoseLife(){
 
-		Destroy (lives [numberlives - 1].gameObject);
+		//Destroy (lives [numberlives - 1].gameObject);
+		lives[numberlives - 1].gameObject.GetComponent<Image>().material = null;
 		numberlives -= 1;
 		if (numberlives == 0) {
 			Debug.Log("GAME OVER");	
