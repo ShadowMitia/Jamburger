@@ -2,16 +2,18 @@
 using System.Collections;
 
 public class OrderController : MonoBehaviour {
-
+	GameController gameController;
 	public GameObject topHamburger;
 	public GameObject bottomHamburger;
 	[HideInInspector]
 	public GameObject[] orderIngredients;
-	public int numberIngredientsOrder;
+	int numberIngredientsOrder;
 	public GameObject[] ingredients;
 
 	// Use this for initialization
 	void Start () {
+		gameController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameController> ();
+		numberIngredientsOrder = gameController.numIngredientsOrder;
 		orderIngredients = new GameObject[numberIngredientsOrder];
 		GenerateOrder ();
 	}

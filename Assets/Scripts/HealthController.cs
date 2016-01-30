@@ -3,12 +3,16 @@ using System.Collections;
 
 public class HealthController : MonoBehaviour {
 
+	GameController gameController;
+
 	public int numberlives;
 	GameObject[] lives;
 	public GameObject uiLife;
 
 	// Use this for initialization
 	void Start () {
+		gameController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameController>();
+		numberlives = gameController.playerLives;
 		lives = new GameObject[numberlives];
 		for (int i = 0; i < numberlives; i++) {
 			lives[i] = (GameObject)Instantiate (uiLife, GetComponent<Transform>().transform.position + new Vector3(0f, i * -90f, 0f), Quaternion.identity);
@@ -18,7 +22,11 @@ public class HealthController : MonoBehaviour {
 	
 
 	public void LoseLife(){
-		Destroy (lives[numberlives-1].gameObject);
+
+		Destroy (lives [numberlives - 1].gameObject);
 		numberlives -= 1;
+		if (numberlives == 0) {
+			Debug.Log("GAME OVER");	
+		}
 	}
 }

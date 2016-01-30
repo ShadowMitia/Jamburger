@@ -8,6 +8,10 @@ public class GameController : MonoBehaviour {
 	public ScoreController scoreController;
 	public OrderController orderController;
 
+	public int numIngredientsOrder;
+
+	public int playerLives;
+
 	public Text scoreText;
 
 	public Dictionary<string, GameObject> keyToIngredientTable;
