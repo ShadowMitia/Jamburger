@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: c432412a07c8086409d5c26f9a44014a
+timeCreated: 1454146866
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TempoHoriBar
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TempoHoriBar
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 79
+        width: 2274
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 695.6067, y: -52.46917}
+        - {x: 696.6067, y: -51.46917}
+        - {x: 737.6067, y: -51.46917}
+        - {x: 738.6067, y: -50.46917}
+        - {x: 800.6067, y: -50.46917}
+        - {x: 801.6067, y: -49.46917}
+        - {x: 827.6067, y: -49.46917}
+        - {x: 828.6067, y: -48.46917}
+        - {x: 848.6067, y: -48.46917}
+        - {x: 849.6067, y: -47.46917}
+        - {x: 866.6067, y: -47.46917}
+        - {x: 867.6067, y: -46.46917}
+        - {x: 882.6067, y: -46.46917}
+        - {x: 883.6067, y: -45.46917}
+        - {x: 909.6067, y: -45.46917}
+        - {x: 910.6067, y: -44.46917}
+        - {x: 920.6067, y: -44.46917}
+        - {x: 921.6067, y: -43.46917}
+        - {x: 932.6067, y: -43.46917}
+        - {x: 933.6067, y: -42.46917}
+        - {x: 946.6067, y: -42.46917}
+        - {x: 950.6067, y: -41.46917}
+        - {x: 950.6067, y: 40.53083}
+        - {x: 946.6067, y: 41.53083}
+        - {x: 933.6067, y: 41.53083}
+        - {x: 932.6067, y: 42.53083}
+        - {x: 921.6067, y: 42.53083}
+        - {x: 920.6067, y: 43.53083}
+        - {x: 910.6067, y: 43.53083}
+        - {x: 909.6067, y: 44.53083}
+        - {x: 896.6067, y: 44.53083}
+        - {x: 895.6067, y: 45.53083}
+        - {x: 866.6067, y: 45.53083}
+        - {x: 865.6067, y: 46.53083}
+        - {x: 849.6067, y: 46.53083}
+        - {x: 848.6067, y: 47.53083}
+        - {x: 827.6067, y: 47.53083}
+        - {x: 826.6067, y: 48.53083}
+        - {x: 800.6067, y: 48.53083}
+        - {x: 799.6067, y: 49.53083}
+        - {x: 772.6067, y: 49.53083}
+        - {x: 771.6067, y: 50.53083}
+        - {x: 695.6067, y: 50.53083}
+        - {x: 694.6067, y: 51.53083}
+        - {x: 651.6067, y: 51.53083}
+        - {x: 650.6067, y: 52.53083}
+        - {x: 574.6067, y: 52.53083}
+        - {x: 573.6067, y: 53.53083}
+        - {x: -898.3933, y: 53.53083}
+        - {x: -904.3933, y: 52.53083}
+        - {x: -909.3933, y: 51.53083}
+        - {x: -915.3933, y: 50.53083}
+        - {x: -918.3933, y: 49.53083}
+        - {x: -925.3933, y: 45.53083}
+        - {x: -927.3933, y: 45.53083}
+        - {x: -932.3933, y: 41.53083}
+        - {x: -935.3933, y: 40.53083}
+        - {x: -941.3933, y: 33.53083}
+        - {x: -945.3933, y: 28.53083}
+        - {x: -948.3933, y: 21.53083}
+        - {x: -950.3933, y: 17.53083}
+        - {x: -950.3933, y: -17.46917}
+        - {x: -946.3933, y: -27.46917}
+        - {x: -941.3933, y: -35.46917}
+        - {x: -936.3933, y: -40.46917}
+        - {x: -928.3933, y: -45.46917}
+        - {x: -918.3933, y: -50.46917}
+        - {x: -913.3933, y: -51.46917}
+        - {x: -905.3933, y: -52.46917}
+        - {x: -904.3933, y: -53.46917}
+        - {x: 651.6067, y: -53.46917}
+        - {x: 652.6067, y: -52.46917}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

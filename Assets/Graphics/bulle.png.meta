@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: dcbc2760fdadabb4b86c0aea6219abd1
+timeCreated: 1454147056
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpeechBubble
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SpeechBubble
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 280
+        width: 460
+        height: 888
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106.567505, y: -357.46667}
+        - {x: 124.567505, y: -347.46667}
+        - {x: 132.5675, y: -342.46667}
+        - {x: 147.5675, y: -331.46667}
+        - {x: 156.5675, y: -321.46667}
+        - {x: 161.5675, y: -314.46667}
+        - {x: 167.5675, y: -306.46667}
+        - {x: 172.5675, y: -299.46667}
+        - {x: 176.5675, y: -292.46667}
+        - {x: 181.5675, y: -282.46667}
+        - {x: 187.5675, y: -267.46667}
+        - {x: 189.5675, y: -258.46667}
+        - {x: 192.5675, y: -247.46667}
+        - {x: 192.5675, y: 246.53333}
+        - {x: 187.5675, y: 266.53333}
+        - {x: 182.5675, y: 279.53333}
+        - {x: 176.5675, y: 291.53333}
+        - {x: 172.5675, y: 298.53333}
+        - {x: 167.5675, y: 306.53333}
+        - {x: 157.5675, y: 319.53333}
+        - {x: 139.5675, y: 336.53333}
+        - {x: 130.5675, y: 343.53333}
+        - {x: 114.567505, y: 353.53333}
+        - {x: 102.567505, y: 358.53333}
+        - {x: 89.567505, y: 363.53333}
+        - {x: 76.567505, y: 367.53333}
+        - {x: 58.567505, y: 371.53333}
+        - {x: 9.567505, y: 371.53333}
+        - {x: -2.432495, y: 369.53333}
+        - {x: -24.432495, y: 363.53333}
+        - {x: -38.432495, y: 358.53333}
+        - {x: -48.432495, y: 353.53333}
+        - {x: -63.432495, y: 343.53333}
+        - {x: -77.432495, y: 332.53333}
+        - {x: -91.432495, y: 318.53333}
+        - {x: -99.432495, y: 309.53333}
+        - {x: -111.432495, y: 290.53333}
+        - {x: -116.432495, y: 280.53333}
+        - {x: -122.432495, y: 267.53333}
+        - {x: -123.432495, y: 258.53333}
+        - {x: -126.432495, y: 246.53333}
+        - {x: -127.432495, y: 235.53333}
+        - {x: -127.432495, y: -15.466675}
+        - {x: -128.4325, y: -17.466675}
+        - {x: -129.4325, y: -29.466675}
+        - {x: -130.4325, y: -42.466675}
+        - {x: -131.4325, y: -50.466675}
+        - {x: -135.4325, y: -59.466675}
+        - {x: -142.4325, y: -70.466675}
+        - {x: -153.4325, y: -79.466675}
+        - {x: -170.4325, y: -87.466675}
+        - {x: -178.4325, y: -89.466675}
+        - {x: -183.4325, y: -91.466675}
+        - {x: -189.4325, y: -94.466675}
+        - {x: -192.4325, y: -98.466675}
+        - {x: -192.4325, y: -115.466675}
+        - {x: -185.4325, y: -122.466675}
+        - {x: -179.4325, y: -125.466675}
+        - {x: -172.4325, y: -127.466675}
+        - {x: -166.4325, y: -128.46667}
+        - {x: -128.4325, y: -128.46667}
+        - {x: -127.432495, y: -127.466675}
+        - {x: -127.432495, y: -236.46667}
+        - {x: -126.432495, y: -247.46667}
+        - {x: -121.432495, y: -267.46667}
+        - {x: -117.432495, y: -280.46667}
+        - {x: -110.432495, y: -293.46667}
+        - {x: -106.432495, y: -300.46667}
+        - {x: -99.432495, y: -310.46667}
+        - {x: -91.432495, y: -320.46667}
+        - {x: -84.432495, y: -327.46667}
+        - {x: -69.432495, y: -340.46667}
+        - {x: -58.432495, y: -347.46667}
+        - {x: -54.432495, y: -350.46667}
+        - {x: -40.432495, y: -357.46667}
+        - {x: -31.432495, y: -361.46667}
+        - {x: -23.432495, y: -365.46667}
+        - {x: 4.567505, y: -371.46667}
+        - {x: 61.567505, y: -371.46667}
+        - {x: 79.567505, y: -367.46667}
+        - {x: 91.567505, y: -363.46667}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

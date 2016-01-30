@@ -1,0 +1,82 @@
+fileFormatVersion: 2
+guid: 6b66ea7dac0923948b88d7ad7e969273
+timeCreated: 1454146790
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TempoPlot
+    21300002: TempoPlot
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TempoPlot
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2
+        width: 181
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.04666, y: 110.17167}
+        - {x: -53.95334, y: 110.17167}
+        - {x: -73.95334, y: 86.17167}
+        - {x: -75.95334, y: 72.17167}
+        - {x: -75.95334, y: -64.82833}
+        - {x: -69.95334, y: -89.82833}
+        - {x: -52.95334, y: -106.82833}
+        - {x: -42.95334, y: -108.82833}
+        - {x: 44.04666, y: -108.82833}
+        - {x: 76.04666, y: -93.82833}
+        - {x: 76.04666, y: 62.17167}
+        - {x: 72.04666, y: 89.17167}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

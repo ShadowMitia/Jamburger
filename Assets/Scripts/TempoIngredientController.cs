@@ -6,7 +6,9 @@ public class TempoIngredientController : MonoBehaviour {
 	public GameObject tempoPrefab;
 	public GameObject tempoIngredientStart;
 	public int numIngredients;
-	private GameObject[] tempoIngredients;
+	[HideInInspector]
+	public GameObject[] tempoIngredients;
+	public int speed;
 
 
 	// Use this for initialization
@@ -22,8 +24,10 @@ public class TempoIngredientController : MonoBehaviour {
 	void Update () {
 		
 		for (int i = 0; i < numIngredients; i++) {
-			Vector3 newPosition = new Vector3 (-10, 0, 0) * Time.deltaTime;
-			tempoIngredients [i].transform.position += newPosition;
+			if (tempoIngredients [i] != null) {
+				Vector3 newPosition = new Vector3 (-1, 0, 0) * speed * Time.deltaTime;
+				tempoIngredients [i].transform.position += newPosition;
+			}
 		}
 
 	}

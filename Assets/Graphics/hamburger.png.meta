@@ -1,0 +1,95 @@
+fileFormatVersion: 2
+guid: bd1d9e2c41cfc534994f96be5d49a924
+timeCreated: 1454146911
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HamburgerTop
+    21300002: HamburgerBottom
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HamburgerTop
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 956
+        width: 219
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.19922, y: 59.05664}
+        - {x: -91.19922, y: 38.05664}
+        - {x: -91.19922, y: -41.94336}
+        - {x: -43.19922, y: -58.94336}
+        - {x: 92.80078, y: -58.94336}
+        - {x: 92.80078, y: 57.05664}
+        - {x: 87.80078, y: 59.05664}
+    - name: HamburgerBottom
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 360
+        width: 219
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.80078, y: 54.399994}
+        - {x: -91.19922, y: 54.399994}
+        - {x: -91.19922, y: -43.600006}
+        - {x: -48.19922, y: -52.600006}
+        - {x: 86.80078, y: -52.600006}
+        - {x: 92.80078, y: -34.600006}
+        - {x: 92.80078, y: 39.399994}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

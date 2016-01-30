@@ -1,0 +1,77 @@
+fileFormatVersion: 2
+guid: c611cb41f0f6a974ea00e6d2d2a988eb
+timeCreated: 1454146883
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Heart
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.09476423, y: 0.92466086}
+  spriteBorder: {x: 162, y: 1036, z: 2142, w: 19}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Heart
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1043
+        width: 133
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.251663, y: 56.27417}
+        - {x: -55.251663, y: 48.27417}
+        - {x: -55.251663, y: -14.72583}
+        - {x: -38.251663, y: -54.72583}
+        - {x: 45.748337, y: -54.72583}
+        - {x: 56.748337, y: -31.72583}
+        - {x: 56.748337, y: 47.27417}
+        - {x: 53.748337, y: 56.27417}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
