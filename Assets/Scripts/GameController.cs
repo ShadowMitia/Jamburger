@@ -10,12 +10,11 @@ public class GameController : MonoBehaviour {
 
 	public Text scoreText;
 
-	public Dictionary<KeyCode, GameObject> keyToIngredientTable;
+	public Dictionary<string, GameObject> keyToIngredientTable;
 
 	// Use this for initialization
 	void Start () {
-		keyToIngredientTable = new Dictionary<KeyCode, GameObject>();
-		scoreController = scoreText.GetComponent<ScoreController> ();
+		keyToIngredientTable = new Dictionary<string, GameObject>();
 		RandomizeIngredientKeyAssociation ();
 		foreach (var item in keyToIngredientTable) {
 			Debug.Log (item);
@@ -24,15 +23,17 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (Input.GetKeyDown ("left")) {
+			Debug.Log ("weah");
+		}
 	}
 
 	void RandomizeIngredientKeyAssociation (){
-		KeyCode[] keys = {KeyCode.UpArrow, KeyCode.DownArrow, KeyCode.LeftArrow, KeyCode.RightArrow};
+		string[] keys = {"up", "down", "left", "right"};
 		//Knuth shuffle
 		for (int i = 0; i < keys.Length - 1; i++) {
 			int rand = Random.Range (0, i+1);
-			KeyCode temp = keys [i];
+			string temp = keys [i];
 			keys [i] = keys [rand];
 			keys [rand] = temp;
 		}
