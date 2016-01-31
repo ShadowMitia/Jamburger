@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f0f15163f748c9940bc6bec16075124b
-timeCreated: 1454193055
+guid: 1724323826605844982132dfe4238805
+timeCreated: 1454230596
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: fromage_0
+    21300000: "fl\xE8che_0"
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -27,10 +27,10 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -51,28 +51,26 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: fromage_0
+    - name: "fl\xE8che_0"
       rect:
         serializedVersion: 2
-        x: 1990
-        y: 649
-        width: 214
-        height: 123
+        x: 431
+        y: 603
+        width: 217
+        height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -3.6916504, y: 52.45581}
-        - {x: -22.69165, y: 52.45581}
-        - {x: -85.69165, y: 8.455811}
-        - {x: -89.69165, y: 5.4558105}
-        - {x: -89.69165, y: -7.5441895}
-        - {x: -88.69165, y: -11.544189}
-        - {x: 11.30835, y: -51.54419}
-        - {x: 29.30835, y: -51.54419}
-        - {x: 90.30835, y: 5.4558105}
-        - {x: 90.30835, y: 19.45581}
-        - {x: 81.30835, y: 25.45581}
+      - - {x: 25.244171, y: 105.00748}
+        - {x: -19.755829, y: 105.00748}
+        - {x: -29.755829, y: 94.00748}
+        - {x: -90.75583, y: 6.007477}
+        - {x: -90.75583, y: -49.992523}
+        - {x: -57.75583, y: -104.99252}
+        - {x: 65.24417, y: -104.99252}
+        - {x: 91.24417, y: -54.992523}
+        - {x: 91.24417, y: 9.007477}
     outline: []
   spritePackingTag: 
   userData: 

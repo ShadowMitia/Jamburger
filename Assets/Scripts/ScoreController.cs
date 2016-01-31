@@ -19,5 +19,6 @@ public class ScoreController : MonoBehaviour {
 
 	void UpdateScore(){
 		scoreText.text = "Score: " + score;
+		Debug.Log (score);
 	}
 }

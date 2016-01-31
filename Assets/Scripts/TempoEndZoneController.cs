@@ -16,10 +16,8 @@ public class TempoEndZoneController : MonoBehaviour {
 				if (objectPos < GetComponent<Transform> ().transform.position.x) {
 					Destroy (tempoIController.tempoIngredients [i]);
 				} else {
-					Destroy (tempoIController.tempoIngredients [i]);
 					healthController.LoseLife ();
 				}
-				break;
 			}
 		}
 	}

@@ -25,7 +25,6 @@ public class HealthController : MonoBehaviour {
 	
 
 	public void LoseLife(){
-
 		//Destroy (lives [numberlives - 1].gameObject);
 		lives[numberlives - 1].gameObject.GetComponent<Image>().material = null;
 		numberlives -= 1;

@@ -16,6 +16,8 @@ public class TempoIngredientController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		gameController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameController> ();
+
 		Generate ();
 
 	}
@@ -39,6 +41,7 @@ public class TempoIngredientController : MonoBehaviour {
 		for (int i = 0; i < numIngredients; i++) {
 			Vector3 newPosition = tempoIngredientStart.transform.position + new Vector3 (i * 2.5f, 0f, 0f);
 			tempoIngredients[i] = (GameObject) Instantiate (tempoPrefab, newPosition, Quaternion.identity);
+			tempoIngredients[i].GetComponent<Transform>().SetParent (GetComponent<Transform>());
 		}
 	}
 }
