@@ -53,13 +53,21 @@ public class OrderController : MonoBehaviour {
 
 		// DALEK: EXPLLAAIIIIIINNNNNNNN
 		StartCoroutine ("CustomerOrder");
-
 	}
 
 		IEnumerator CustomerOrder(){
+		
 			for (int i = 0; i < orderIngredients.Length; i++) {
+				GameObject.Find ("Customer").GetComponent<SpriteRenderer> ().sortingLayerName = "Default";
+				GameObject.Find ("CustomerTalk1").GetComponent<SpriteRenderer> ().sortingLayerName = "Client";
 				orderIngredients [i].SetActive (true);
 				orderIngredients [i].GetComponent<AudioSource> ().Play ();
+				yield return new WaitForSeconds (0.2f);
+				GameObject.Find ("CustomerTalk1").GetComponent<SpriteRenderer> ().sortingLayerName = "Default";
+				GameObject.Find ("CustomerTalk2").GetComponent<SpriteRenderer> ().sortingLayerName = "Client";
+				yield return new WaitForSeconds (0.2f);
+				GameObject.Find ("CustomerTalk2").GetComponent<SpriteRenderer> ().sortingLayerName = "Default";
+				GameObject.Find ("Customer").GetComponent<SpriteRenderer> ().sortingLayerName = "Client";
 				yield return new WaitForSeconds(0.5f);
 			}
 		finishedOrdering = true;

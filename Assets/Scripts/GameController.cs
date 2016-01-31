@@ -21,12 +21,16 @@ public class GameController : MonoBehaviour {
 	[HideInInspector]
 	public int numKeys;
 	public int playerLives;
+	[HideInInspector]
 	public string[] keys;
 
-	int currentLevel;
+	public int currentLevel;
 
 	[HideInInspector]
 	public float timeInterval;
+
+	public float levelTotalTime;
+
 
 	[HideInInspector]
 	public int currentTempoToken;
@@ -43,7 +47,7 @@ public class GameController : MonoBehaviour {
 		RandomizeIngredientKeyAssociation ();
 		currentTempoToken = 0;
 
-		NewLevel ();
+		NewLevel();
 
 	}
 
@@ -55,16 +59,25 @@ public class GameController : MonoBehaviour {
 			numKeys = 4;
 		}
 		currentTempoToken = 0;
+
+		StartCoroutine ("LevelDelay");
+
+		//while(levelDelayed)
+		//	yield return new WaitForSeconds (0.1f);
+
+
 		orderController.GenerateOrder ();
 		tempoIngredientController.Generate ();
 		keyAid.LoadVisualiser ();
 
 		timeInterval = (currentLevel + 1) / 2f;
+
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (!orderController.finishedOrdering)
+		if (!orderController.finishedOrdering || levelDelayed)
 			return;
 		
 		Bounds bounds = tempoBar.GetComponent<Renderer> ().bounds;
@@ -118,10 +131,14 @@ public class GameController : MonoBehaviour {
 
 								//orderController.orderIngredients[currentTempoToken].GetComponent<AudioSource>().
 								orderController.orderIngredients [currentTempoToken].GetComponent<AudioSource> ().Play ();
+
+								StartCoroutine ("Fail");
 							}
 
 						} else {
 							healthController.LoseLife();
+
+							StartCoroutine ("Fail");
 						}
 					}
 				}
@@ -132,6 +149,7 @@ public class GameController : MonoBehaviour {
 				currentToken.GetComponent<SpriteRenderer> ().color = Color.blue;
 				Destroy (currentToken, 1f);
 				currentTempoToken++;
+				StartCoroutine ("Fail");
 			}
 		} catch (Exception e){
 			Debug.LogException (e);
@@ -173,4 +191,22 @@ public class GameController : MonoBehaviour {
 			keys [i] = _keys [i];
 		}
 	}
+
+	IEnumerator Fail() {
+		GameObject.Find ("Customer").GetComponent<SpriteRenderer> ().sortingLayerName = "Default";
+		GameObject.Find ("CustomerFail").GetComponent<SpriteRenderer> ().sortingLayerName = "Client";
+		yield return new WaitForSeconds(0.2f);
+		GameObject.Find ("Customer").GetComponent<SpriteRenderer> ().sortingLayerName = "Client";
+		GameObject.Find ("CustomerFail").GetComponent<SpriteRenderer> ().sortingLayerName = "Default";
+		yield return null;
+	}
+
+	public bool levelDelayed = false;
+	IEnumerator LevelDelay(){
+		tempoIngredientController.StopCoroutine ("PlayTick");
+		levelDelayed = true;
+		yield return new WaitForSeconds (1f);
+		levelDelayed = false;
+	}
 }
+

@@ -17,6 +17,8 @@ public class TempoEndZoneController : MonoBehaviour {
 					Destroy (tempoIController.tempoIngredients [i]);
 				} else {
 					healthController.LoseLife ();
+
+					gameController.StartCoroutine ("Fail");
 				}
 			}
 		}

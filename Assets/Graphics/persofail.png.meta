@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4eabc1ae5425c9849a49d97a05a1444c
-timeCreated: 1454255869
+guid: c068b933bb7ba5e4f9b25f704593f9ce
+timeCreated: 1454255898
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: perso-dalle_0
+    21300000: persofail_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -51,7 +51,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: perso-dalle_0
+    - name: persofail_0
       rect:
         serializedVersion: 2
         x: 677
