@@ -9,6 +9,7 @@ public class TempoIngredientController : MonoBehaviour {
 	public GameObject tempoIngredientStart;
 	[HideInInspector]
 	public GameObject[] tempoIngredients;
+	public OrderController orderController;
 	public int speed;
 
 	private int numIngredients;
@@ -18,14 +19,15 @@ public class TempoIngredientController : MonoBehaviour {
 	void Start () {
 		gameController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameController> ();
 
-		Generate ();
+		//Generate ();
 
 	}
 		
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (!orderController.finishedOrdering)
+			return;
 		for (int i = 0; i < numIngredients; i++) {
 			if (tempoIngredients [i] != null) {
 				Vector3 newPosition = new Vector3 (-1, 0, 0) * speed * Time.deltaTime;
